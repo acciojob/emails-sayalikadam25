@@ -12,9 +12,19 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="archetype-snapshots" />
+      <option name="name" value="archetype-snapshots" />
+      <option name="url" value="https://artifactory.lowes.com/artifactory/ptp-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="prime-repo" />
       <option name="name" value="prime-repo" />
       <option name="url" value="http://repository.primefaces.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="archetype-releases" />
+      <option name="name" value="archetype-releases" />
+      <option name="url" value="https://artifactory.lowes.com/artifactory/ptp-maven-virtual" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />

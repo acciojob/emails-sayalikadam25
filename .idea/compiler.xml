@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="vehicles-solution" />
         <module name="vehicles-driver-code" />
+        <module name="emails-sayalikadam25" />
         <module name="java-assignment-testing-solution" />
       </profile>
     </annotationProcessing>
