@@ -59,21 +59,6 @@ public class Email {
             }
         }
 
-        // for special characters
-        if (!(password.contains("@") || password.contains("#")
-                || password.contains("!") || password.contains("~")
-                || password.contains("$") || password.contains("%")
-                || password.contains("^") || password.contains("&")
-                || password.contains("*") || password.contains("(")
-                || password.contains(")") || password.contains("-")
-                || password.contains("+") || password.contains("/")
-                || password.contains(":") || password.contains(".")
-                || password.contains(", ") || password.contains("<")
-                || password.contains(">") || password.contains("?")
-                || password.contains("|"))) {
-            return false;
-        }
-
         if (true) {
             int count = 0;
 
@@ -111,6 +96,22 @@ public class Email {
                 return false;
             }
         }
+
+        // for special characters
+        if (!(password.contains("@") || password.contains("#")
+                || password.contains("!") || password.contains("~")
+                || password.contains("$") || password.contains("%")
+                || password.contains("^") || password.contains("&")
+                || password.contains("*") || password.contains("(")
+                || password.contains(")") || password.contains("-")
+                || password.contains("+") || password.contains("/")
+                || password.contains(":") || password.contains(".")
+                || password.contains(", ") || password.contains("<")
+                || password.contains(">") || password.contains("?")
+                || password.contains("|"))) {
+            return false;
+        }
+
         return true;
     }
 }
